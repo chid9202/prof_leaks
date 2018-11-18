@@ -1,0 +1,15 @@
+* {
+	font-family: 'montserrat'
+}
+
+#page-title {
+	color: #4CAF50;
+	padding: 10px;
+}
+
+#divider {
+	width: 80vw;
+	height: 1px;
+	margin-left: 10px;
+	border: 0.5px solid lightgrey;
+}
