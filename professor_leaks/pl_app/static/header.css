@@ -2,6 +2,13 @@
 	font-family: 'montserrat'
 }
 
+
+body {
+	padding-left: 30px;
+	padding-right: 30px;
+
+}
+
 #page-title {
 	color: #4CAF50;
 	padding: 10px;

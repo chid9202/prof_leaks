@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+
+{% block body %}
+<h1>
+    {{ prof_name }}
+</h1>
+<table style='width:100%'>
+    <tr>
+        <td>Comment</td>
+        <td>Rate</td>
+    </tr>
+
+{% for cmt in comments %}
+    <tr>
+        <td>{{cmt}}</td>
+        <td>{{cmt.rate}}</td>
+    </tr>
+{% endfor %}
+</table>
+<br/>
+<br/>
+<input type="text" name="" placeholder="Type comments" size="60px">
+<input type="text" name="" placeholder="Rate" size="5px">
+<button type="button" name="submit">submit</button>
+
+{% endblock %}

@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+
+{% block body %}
+<h1>
+    This is professor detail page
+</h1>
+{% for prof in prof_list %}
+<a href="/professor_detail/{{prof}}">
+    <h3>{{ prof }}</h3>
+</a>
+{% endfor %}
+
+{% endblock %}

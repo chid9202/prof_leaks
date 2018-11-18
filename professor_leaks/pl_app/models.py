@@ -45,3 +45,5 @@ class Comment(models.Model):
     rate = models.IntegerField(
         validators=[MaxValueValidator(5), MinValueValidator(1)]
     )
+    def __str__(self):
+        return self.content
