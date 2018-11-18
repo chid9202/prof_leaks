@@ -1,12 +1,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="../static/index.css">
+<link rel="stylesheet" type="text/css" href="../static/style.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 <script type="text/javascript" src="../static/jquery.min.js"></script>
 
-<!-- beginning of page -->
-
-<a id="login" href="#">Login</a>
-<input type="search" name="search" placeholder="search for a university..." onkeyup="filter_uni()" style="">
+<div class="main-flex-container">	
+	<div class="login-flex-container">
+		<a id="login" href="#">Login</a>
+	</div>
+	<div class="search-flex-container">
+		<div>
+			<input class="search" type="search" name="search" placeholder="Search Your Institution">
+			<img id="search-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdQes1AAHzxPoFUqDojOI_0DUGOZJ-koV8AxCGbDGU9JdK65f9Aw">
+		</div>
+	</div>
+	<div class="clear">
+		<div class="results flex-container"></div>
+	</div>
+</div>
 
 <!-- end of page -->
 
-<script type="text/javascript" src="../static/index.js"></script>
+<script type="text/javascript" src="../static/common.js"></script>
